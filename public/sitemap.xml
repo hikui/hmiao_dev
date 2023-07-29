@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hmiao-dev.vercel.app/about/</loc>
+    <loc>https://www.hmiao.dev/about/</loc>
     <lastmod>2023-07-29T22:52:26+10:00</lastmod>
   </url><url>
-    <loc>https://hmiao-dev.vercel.app/</loc>
+    <loc>https://www.hmiao.dev/</loc>
     <lastmod>2023-07-29T22:08:14+10:00</lastmod>
   </url><url>
-    <loc>https://hmiao-dev.vercel.app/archives/</loc>
+    <loc>https://www.hmiao.dev/archives/</loc>
   </url><url>
-    <loc>https://hmiao-dev.vercel.app/categories/</loc>
+    <loc>https://www.hmiao.dev/categories/</loc>
   </url><url>
-    <loc>https://hmiao-dev.vercel.app/tags/</loc>
+    <loc>https://www.hmiao.dev/tags/</loc>
   </url>
 </urlset>

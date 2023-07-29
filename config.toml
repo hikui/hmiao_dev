@@ -1,0 +1,54 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-au'
+defaultContentLanguage = "en-au"
+timeZone = 'Australia/Melbourne'
+title = 'hmiao.dev'
+theme = 'terminal'
+paginate = 7
+canonifyurls = true
+
+[permalinks]
+  posts = "/:year/:month/:slug/"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  archive = "archives"
+
+# ------
+# Markup
+# ------
+[markup]
+  # Set startLevel = 1 to support # title (<h1>title</h1>) otherwise table of content is blank/empty
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 1
+
+# ------
+# Author
+# ------
+[author]
+  name = "Heguang Miao"
+  bio = "A software engineer"
+  job = "Platform Technical Lead"
+  location = "Australia"
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about"
+
+[[menu.main]]
+  identifier = "rss"
+  name = "RSS"
+  url = "/index.xml"
+# -------------
+# Customization
+# -------------
+[params]
+  centerTheme = true
+  fullWidthTheme = true
+
+  [params.logo]
+    logoText = "hmiao.dev"
